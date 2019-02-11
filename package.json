@@ -4,7 +4,7 @@
   "description": "Projet calcultatrice dans le cadre du module MDI",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "Pinard Matthias Gillian Bruyas",
   "license": "ISC",
