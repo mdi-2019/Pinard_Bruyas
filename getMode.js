@@ -7,11 +7,18 @@ const rl = readline.createInterface({
 
 
 exports.getMode = function() {
-    rl.question('What do you think of Node.js? ', (answer) => {
-      // TODO: Log the answer in a database
-      console.log(`Thank you for your valuable feedback: ${answer}`);
-
-      rl.close();
-    });
+  let mode
+    while((mode != 0) && (mode != 1)){
+      rl.question('Mode normal : 0 / Mode scientifique : 1', (answer) => {
+        mode = answer
+        if(mode == 0){
+          console.log('Mode normal');
+        }
+        else if(mode == 1){
+          console.log('Mode scientifique')
+        }
+        rl.close();
+      });
+    }
 }
 
