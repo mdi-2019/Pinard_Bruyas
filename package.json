@@ -9,6 +9,6 @@
   "author": "Pinard Matthias Gillian Bruyas",
   "license": "ISC",
   "dependencies": {
-    "math.js": "^1.1.43"
+    "mathjs": "^5.4.2"
   }
 }
