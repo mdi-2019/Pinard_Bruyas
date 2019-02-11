@@ -1,5 +1,6 @@
 const readline = require('readline');
 const normalMode = require('./normalMode')
+const calculate = require('./calculate')
 
 const rl = readline.createInterface({
   input: process.stdin,
@@ -17,6 +18,7 @@ let getMode = function() {
       }
       else if(mode == 1){
         console.log('Mode scientifique')
+        calculate.scientific()
        }
       else{
         getMode()
