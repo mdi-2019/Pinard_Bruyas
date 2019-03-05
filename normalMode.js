@@ -1,6 +1,7 @@
 /**
  * This file contain the normal mode of the calculator
  */
+
 const math = require('mathjs');
 const readline = require('readline');
 
