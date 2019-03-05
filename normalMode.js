@@ -1,3 +1,7 @@
+/**
+ * This file contain the normal mode of the calculator
+ */
+
 const math = require('mathjs');
 const readline = require('readline');
 
@@ -6,8 +10,13 @@ const rl = readline.createInterface({
     output: process.stdout
   });
 
+  /**
+   * Normal mode function
+   */
 let normalMode = function() {
+    // Operande 1
     let a
+    // Operande 2
     let b
     let operator
     let result
