@@ -1,3 +1,6 @@
+/**
+ * This file contain a function to make a scientific calculation
+ */
 const readline = require('readline');
 const math = require('mathjs');
 
