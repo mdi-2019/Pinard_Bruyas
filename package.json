@@ -4,7 +4,8 @@
   "description": "Projet calcultatrice dans le cadre du module MDI",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "start": "node index.js",
+  "test": "jest"
   },
   "author": "Pinard Matthias Gillian Bruyas",
   "license": "ISC",
